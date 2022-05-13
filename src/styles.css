@@ -1,6 +1,7 @@
 .buttons {
   width: 64px;
   height: auto;
+  margin-top: 3%;
   background-color: white;
   color: black;
   font-size: 40px;
@@ -25,7 +26,7 @@ body h1 {
   color: white;
   text-shadow: 1px 1px 2px black;
 }
-body span {
+span {
   font-size: 64px;
   color: white;
   text-shadow: 1px 1px 12px rgb(255, 255, 255);
@@ -33,7 +34,7 @@ body span {
 }
 .counters {
   background-color: rgba(255, 255, 255, 0.199);
-  margin: auto;
+  margin: 10px;
   padding: 5%;
   height: auto;
 }
