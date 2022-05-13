@@ -1,0 +1,44 @@
+.buttons {
+  width: 64px;
+  height: auto;
+  background-color: white;
+  color: black;
+  font-size: 40px;
+  border-radius: 4px;
+  box-shadow: 3px 3px rgb(0, 0, 0);
+  transition: 0.4s;
+  margin-left: 12px;
+}
+.buttons:hover {
+  box-shadow: 0px 0px;
+}
+.buttons:checked {
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-color: rgb(130, 146, 238);
+}
+
+body h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+body span {
+  font-size: 64px;
+  color: white;
+  text-shadow: 1px 1px 12px rgb(255, 255, 255);
+}
+.counters {
+  background-color: rgba(255, 255, 255, 0.199);
+  margin: auto;
+  padding: 5%;
+  height: auto;
+}
+.low {
+  text-shadow: 1px 1px 24px rgb(255, 0, 0);
+}
+.high {
+  text-shadow: 1px 1px 24px rgb(0, 255, 76);
+}
